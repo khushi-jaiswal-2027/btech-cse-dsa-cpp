@@ -1,2 +1,2 @@
-# betch-cse-dsa-cpp
+# btech-cse-dsa-cpp
 Daily C++ programming and Data Structure problem-solving journey .
