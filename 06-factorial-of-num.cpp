@@ -1,7 +1,7 @@
 /*
 ============================================================================
-QUESTION: Factorial of given the number.
-LOGIC: Using of "for loop ".
+QUESTION: Factorial of a given  number.
+LOGIC: Using a "for loop ".
 ----------------------------------------------------------------------------
 */
 #include<iostream>
