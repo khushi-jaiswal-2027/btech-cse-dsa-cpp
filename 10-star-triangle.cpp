@@ -1,6 +1,6 @@
 /*
 ============================================================================
-QUESTION: Print star triangle of a given  number.
+QUESTION: Print right-angled star triangle of a given  number.
 LOGIC: Using two "for loops " where  loop-1 controls rows and loop-2 controls
 columns.
 ----------------------------------------------------------------------------
