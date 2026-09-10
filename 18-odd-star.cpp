@@ -7,7 +7,8 @@ QUESTION: Print odd star triangle of a given  number.
 * * * * * 
 * * * * * * *     
 
-LOGIC: Use two nested for loops to control the rows and columns.
+LOGIC: Use  nested. 
+The inner loop prints (2 * i) - 1 stars per row.
 
 ----------------------------------------------------------------------------
 */
@@ -18,19 +19,16 @@ int main() {
     cout<<"Enter the number: ";
     cin>>n;
     
-    for(int i=1;i<=n;i++) {
+    for( int i = 1 ;i <= n ; i++ ) {
 
-/*The first outer loop uses variable i to control the rows. It runs 
- from 1 up to n to manage the vertical height of our triangle. */
+// Outer loop controls the number of rows. 
 
-       for(int j=1 ; j<=(2*i)-1 ; j++) {
-/*
-Inside the row, the second loop uses variable j. It runs 
- from 1 down to (2*i)-1 to print the odd star.  */ 
-
+       for( int j = 1 ; j <= (2*i) - 1 ; j++ ) {
+// Inner loop prints an odd number of stars for the current row.
         cout<<"* ";
         } 
-        cout<<endl;
+        cout << endl; 
+// Move to the next line after completing the row.
     }
     return 0;
 }
