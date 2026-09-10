@@ -7,7 +7,7 @@ QUESTION: Print odd star triangle of a given  number.
 * * * * * 
 * * * * * * *     
 
-LOGIC: Use  nested. 
+LOGIC: Use  nested loop. 
 The inner loop prints (2 * i) - 1 stars per row.
 
 ----------------------------------------------------------------------------
