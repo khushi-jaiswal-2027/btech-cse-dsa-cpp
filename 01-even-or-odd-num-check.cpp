@@ -7,7 +7,7 @@ LOGIC: Using of "if-else conditional statement".
 #include<iostream>
 /*Using of include- to bring specific file before running
 the program while <iostream> handle the text flow into program(input) and
-out the program(output).*/
+out the program(output)*/
 using namespace std;
 /*It is use as scope handler in which it look inside this standard box 
 automatically whenever user type a command.*/
