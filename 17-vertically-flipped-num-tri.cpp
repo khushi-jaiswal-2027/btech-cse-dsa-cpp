@@ -27,7 +27,7 @@ int main() {
 /*
 Inside the row, the second loop uses variable j. It runs backwards
  from n-1 down to i to print the empty blank spaces. This shifts our triangle
-  to the right side of the screen. */ 
+  to the right side of the screen.*/ 
 
            cout<<"  ";
         } 
