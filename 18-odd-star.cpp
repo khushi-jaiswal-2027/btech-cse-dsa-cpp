@@ -28,7 +28,7 @@ int main() {
         cout<<"* ";
         } 
         cout << endl; 
-// Move to the next line after completing the row.
+// Move to the next line after completing the row .
     }
     return 0;
 }
